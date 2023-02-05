@@ -4,6 +4,8 @@ The overview of this project is show the relationship between various factors in
 
 First we did a linear regression analysis among various factors like drivetrain, weight, lenght, ground clearance, to see if any of them could accurately correlate and predict mpg. A photo below shows the summary of this. 
 
+![This is an image](https://i.imgur.com/FNA9Ym8.png)
+
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 I see that vehicle lenght, weight, and ground clearance all provided non-random variance based on their very small p-values or confidence intervals. 
 
@@ -14,12 +16,11 @@ The slope is non-zero indicated by the r-value and that these variables are corr
 Yes it does predict the mpg effectivley as it has an R value of 0.7 or greater, indicating strong correlation. 
 
 
-
-Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
-
 ## Summary Statistics on Suspension Coils
 
-Futher along we looked at the summary stats for the suspension coils csv. We can see below how we first looked at the data as a whole and then individually based on lot. We then ran t-tests to determine if the manufacturing lots are statistically different from the mean population. 
+Futher along we looked at the summary stats for the suspension coils csv. We can see below how we first looked at the data as a whole and then individually based on lot. We then ran t-tests to determine if the manufacturing lots are statistically different from the mean population.
+
+![This is an image](https://i.imgur.com/8ZlY1Cz.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -30,6 +31,9 @@ The current manufacturing data does meet this design specification for the lots 
 Here we divided the suspension coil data up into manufacturing lots and looked at how they are statistically different from an assigned mean. 
 
 We can observe the results below and see that the p-values are all greater than 0.05 meaning that they are indeed statistically different from each other as there is a low confidence interval. 
+
+![This is an image](https://i.imgur.com/MakZizv.png)
+![This is an image](https://i.imgur.com/wKxPtgN.png)
 
 ## Study Design: MechaCar vs Competition
 
