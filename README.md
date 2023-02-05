@@ -19,10 +19,7 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 
 ## Summary Statistics on Suspension Coils
 
-Futher along we looked at the summary stats for the suspension coils csv. We can see below how we first looked at the data as a whole and then individually based on lot.We then ran t-tests to determine if the manufacturing lots are statistically different from the mean population. 
-
-Looking at the total summary, the current variance is approximately 76.23 PSI meaning that is does meet the design specification. When looking at the lots individuals, the first two lotas meet the design specification at a varaince of approximately 1.14 PSI and 10.13 PSI respectfully, but the third lot does not. This is becasue the third lot's variance is approximately 220.01 PSI, exceeding the design specification by more than double the alotted amount. Therefore, the manufacturing team should work with the cars in lots 1 and 2 compared to those in lot 3.
-
+Futher along we looked at the summary stats for the suspension coils csv. We can see below how we first looked at the data as a whole and then individually based on lot. We then ran t-tests to determine if the manufacturing lots are statistically different from the mean population. 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
@@ -31,6 +28,7 @@ The current manufacturing data does meet this design specification for the lots 
 ## T-Tests on Suspension Coils
 
 Here we divided the suspension coil data up into manufacturing lots and looked at how they are statistically different from an assigned mean. 
+
 We can observe the results below and see that the p-values are all greater than 0.05 meaning that they are indeed statistically different from each other as there is a low confidence interval. 
 
 ## Study Design: MechaCar vs Competition
@@ -39,12 +37,19 @@ Write a short description of a statistical study that can quantify how the Mecha
 In your description, address the following questions:
 
 What metric or metrics are you going to test?
+
 I would test different efficiencies depending on fuels and difference betweeen mpgs, and horse power. Another linear regression would be good here.
+
 What is the null hypothesis or alternative hypothesis?
+
 The null hypotheses is that all of the same types of cars have the mpgs. 
+
 What statistical test would you use to test the hypothesis? And why?
+
 I would use anova to test for this as we can compare two factors or two t.tests to measure variance.
+
 What data is needed to run the statistical test?
+
 More fuel efficiency data from cars of the same class, and even more test data than 50 points to get better statisically accuracy. 
 
 
